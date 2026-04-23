@@ -9,5 +9,8 @@
   ],
   "remoteEnv": {
     "KUBECONFIG": "/home/vscode/.kube/config"
-  }
+  },
+  "forwardPorts": [
+    8080
+  ]
 }

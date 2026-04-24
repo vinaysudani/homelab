@@ -1,3 +1,4 @@
 [tools]
 kubectl = "latest"
 flux2 = "latest"
+k9s = "latest"

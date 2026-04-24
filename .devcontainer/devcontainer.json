@@ -5,7 +5,7 @@
   },
   "postCreateCommand": "scripts/setup",
   "mounts": [
-    "source=${localEnv:HOME}/.kube,target=/home/vscode/.kube,type=bind,readonly"
+    "source=${localEnv:HOME}/.kube,target=/home/vscode/.kube,type=bind"
   ],
   "remoteEnv": {
     "KUBECONFIG": "/home/vscode/.kube/config"
